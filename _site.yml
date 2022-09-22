@@ -1,0 +1,12 @@
+name: "."
+title: "Online Library for Physiological Individual-based Models of Fish Larvae"
+description: |
+  Online Library for Physiological Individual-based Models of Fish Larvae
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
