@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Open+Sans&display=swap');
+
+/* base variables */
+
+/* Edit the CSS properties in this file to create a custom
+   Distill theme. Only edit values in the right column
+   for each row; values shown are the CSS defaults.
+   To return any property to the default,
+   you may set its value to: unset
+   All rows must end with a semi-colon.                      */
+
+/* Optional: embed custom fonts here with `@import`          */
+/* This must remain at the top of this file.                 */
+
+
+
+html {
+  /*-- Main font sizes --*/
+  --title-size:      15px;
+  --body-size:       1.06rem;
+  --code-size:       14px;
+  --aside-size:      12px;
+  --fig-cap-size:    13px;
+  /*-- Main font colors --*/
+  --title-color:     #8F2D56;
+  --header-color:    #8F2D56;
+  --body-color:      #8F2D56;
+  --aside-color:     #8F2D56;
+  --fig-cap-color:   #8F2D56;
+  /*-- Specify custom fonts ~~~ must be imported above   --*/
+  --heading-font:    Amaranth;
+  --mono-font:       Amaranth;
+  --body-font:       "Open Sans";
+  --navbar-font:     Amaranth;  /* websites + blogs only */
+}
+
+/*-- ARTICLE METADATA --*/
+d-byline {
+  --heading-size:    0.6rem;
+  --heading-color:   #004346;
+  --body-size:       0.8rem;
+  --body-color:      #004346;
+}
+
+/*-- ARTICLE TABLE OF CONTENTS --*/
+.d-contents {
+  --heading-size:    18px;
+  --contents-size:   13px;
+}
+
+/*-- ARTICLE APPENDIX --*/
+d-appendix {
+  --heading-size:    15px;
+  --heading-color:   #004346;
+  --text-size:       0.8em;
+  --text-color:      #004346;
+}
+
+/*-- WEBSITE HEADER + FOOTER --*/
+/* These properties only apply to Distill sites and blogs  */
+
+.distill-site-header {
+  --title-size:       40px;
+  --text-color:       #471323;
+  --text-size:        25px;
+  --hover-color:      yellow;
+  --bkgd-color:       #F2CEE6;
+}
+
+.distill-site-footer {
+  --text-color:       #6F1A07;
+  --text-size:        15px;
+  --hover-color:      yellow;
+  --bkgd-color:       #471323;
+}
+
+/*-- Additional custom styles --*/
+/* Add any additional CSS rules below                      */
+
+
+h1 {
+  color: #C34A79;
+  font-size: 36px;
+}
+
+h2 {
+  color: #124559;
+  font-size: 32px;
+}
+
+h3 {
+  color: #124559;
+  font-size: 28px;
+}
+
+d-article h1 {
+  color: #C34A79 !important;
+  font-size: 38px;
+}
+
+d-article h2 {
+  color: #124559 !important;
+  font-size: 34px;
+}
+
+d-article h3 {
+  color: #124559 !important;
+  font-size: 30px;
+}
+
+/*change url color */
+a {
+  color: #C34A79;
+}
+
+a:hover {
+  color: #007bff;
+}
+
+
+/*change body color*/
+
+body {
+  color: #01161E;
+  font-size: 18px;
+}
+
+p {
+  color: #01161E;
+}
+
+.license {
+  color: #01161E;
+  font-size: 14px !important;
+  margin-left: 50px;
+  margin-right: 60px;
+}
+
+/*single space for the lists*/
+d-article li {
+    margin-bottom: 0em;
+}
+
+/*change buttons on homepage*/
+.btn-outline-dark {
+    background-color: transparent; 
+    color: rgba(195, 74, 121);
+    border: 1px solid;
+    border-color: rgba(195, 74, 121);
+}
+
+.btn-outline-dark:hover {
+    background-color: rgba(195, 74, 121);
+    border-color: rgba(195, 74, 121);
+    color: white;
+}
+
+
+/*make logo larger*/
+.rounded {
+  height: 15rem !important; 
+}
+
+/*remove search function*/
+.nav-search {
+  display: none !important;
+}
+
+.algolia-autocomplete {
+  display: none !important;
+}
+
+.nav-left {
+  padding: 0.35em;
+}
+
+.nav-right {
+  padding: 0.35em;
+}
+
+/* remove scroll bar on right hand side */
+.d-flex{
+  overflow-y: hidden !important;
+}
+
+.timeline-Widget{
+  width: 40%;
+  min-width: 200px;
+  max-width: 500px;
+}
+
+/*
+.green-oak{
+  width: 10% !important;
+  min-width: 120px;
+  max-width: 200px;
+}
+*/
+
+.contributor_org {
+  font-family: "Amaranth" !important;
+  font-size: 25px;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.contributor_ppl{
+  font-family: "Open Sans" !important;
+  font-size: 20px;
+}
+
+/* Change link appearance on contributor page */ 
+d-article a {
+  color: #C34A79;
+  border-bottom: none;
+}
+
+
+/*
+.p2{
+  font-family: "Open Sans" !important;
+  font-size: 20px;
+  color: #01161E;
+}
+*/
+
+.left {
+  float: left;
+}
+
+/*do not delete - this removes the scroll bar on the right hand side*/
+.vh-100 {
+  height: 80vh!important;
+}

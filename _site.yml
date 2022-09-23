@@ -1,12 +1,27 @@
 name: "."
-title: "Online Library for Physiological Individual-based Models of Fish Larvae"
+title: "Home"
 description: |
   Online Library for Physiological Individual-based Models of Fish Larvae
 output_dir: "docs"
+theme: OLV2-theme.css
 navbar:
   right:
-    - text: "Home"
-      href: index.html
     - text: "About"
       href: about.html
+    - text: "Species-Specific IBM Models"
+      menu:
+      - text: "Herring"
+        href: herring.html
+      - text: "Cod"
+        href: cod.html
+      - text: "Sprat"
+        href: sprat.html
+      - text: "Smelt"
+        href: smelt.html
+    - text: "Generic IBM Models"
+      href: generic.html
+    - text: "Data"
+      href: data.html
+    - text: "Contact Us"
+      href: contact.html
 output: distill::distill_article
