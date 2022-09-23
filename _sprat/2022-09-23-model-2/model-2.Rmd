@@ -1,0 +1,23 @@
+---
+title: "Model 2"
+description: |
+  A short description of the post.
+date: 2022-09-21
+output:
+  distill::distill_article:
+    self_contained: false
+preview: larvae.jpg
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(astsa)
+#https://donsteward.blogspot.com/search/label/boxplots
+```
+
+## Summary
+
+##Code`
+

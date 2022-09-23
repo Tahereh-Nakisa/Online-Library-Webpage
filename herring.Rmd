@@ -4,11 +4,14 @@ title: "Herring Larvae IBMs"
 #   A new article created using the Distill format.
 date: "`r Sys.Date()`"
 #output: distill::distill_article
+
 output:
   distill::distill_article:
     toc: true
     toc_depth: 3
     toc_float: true
+    
+preview: herring1.jpg
 ---
 
 
