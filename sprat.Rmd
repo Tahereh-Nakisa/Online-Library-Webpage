@@ -1,5 +1,5 @@
 ---
-title: "Sprat"
+title: "Sprat IBMs"
 listing: sprat
 ---
 

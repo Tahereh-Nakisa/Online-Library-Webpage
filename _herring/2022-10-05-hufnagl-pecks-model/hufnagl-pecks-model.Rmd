@@ -1,0 +1,50 @@
+---
+title: "Hufnagl & Peck's Model"
+description: |
+  A short description of the post.
+date: 2022-09-23
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+preview: fish11.jpg
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(astsa)
+#https://donsteward.blogspot.com/search/label/boxplots
+```
+# Hufnagl & Peck's Model's Model 
+
+## Summary
+
+This model ...
+
+## Relations
+
+1)
+2)
+
+## Code
+
+### R Code
+
+### Matlab Code
+
+### Fortran Code
+i=1
+...
+
+## Publications
+
+## Equations
+
+## Trouble Shooting
+
+1)
+2)
+
+# Contact Authors
