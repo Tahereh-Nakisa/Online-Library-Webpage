@@ -8,18 +8,21 @@ navbar:
   right:
     - text: "About"
       href: about.html
-    - text: "Species-Specific IBM Models"
+    - text: "Species-Specific models"
       menu:
-      - text: "Herring"
+      - text: "Atlantic herring"
         href: herring.html
-      - text: "Cod"
+      - text: "Atlantic cod"
         href: cod.html
-      - text: "Sprat"
+      - text: "European sprat"
         href: sprat.html
-      - text: "Smelt"
+      - text: "European smelt"
         href: smelt.html
-    - text: "Generic IBM Models"
+    - text: "Generic models"
       href: generic.html
+      menu:
+      - text: "Quirks"
+        href: quirks.html
     - text: "Data"
       href: data.html
     - text: "Contact Us"
