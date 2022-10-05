@@ -6,7 +6,7 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-10-05T13:42:16+02:00"
+      "last_modified": "2022-10-05T13:52:27+02:00"
     },
     {
       "path": "cod.html",
@@ -15,28 +15,28 @@
       "author": [],
       "date": "`r Sys.Date()`",
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-10-05T13:42:17+02:00"
+      "last_modified": "2022-10-05T13:52:28+02:00"
     },
     {
       "path": "herring.html",
       "title": "Herring IBMs",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-10-05T13:42:17+02:00"
+      "last_modified": "2022-10-05T13:52:29+02:00"
     },
     {
       "path": "index.html",
       "title": "Physiological Fish larvae Individual-based Models(IBMs) Online Library",
       "author": [],
       "contents": "\r\n\r\n          \r\n          \r\n          Home\r\n          \r\n          \r\n          About\r\n          \r\n          \r\n          Species-Specific models\r\n           \r\n          ▾\r\n          \r\n          \r\n          Atlantic herring\r\n          Atlantic cod\r\n          European sprat\r\n          European smelt\r\n          \r\n          \r\n          \r\n          \r\n          Generic models\r\n           \r\n          ▾\r\n          \r\n          \r\n          Quirks\r\n          \r\n          \r\n          Data\r\n          Contact Us\r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Physiological Fish larvae Individual-based Models(IBMs) Online Library\r\n            \r\n            \r\n              \r\n                \r\n                    \r\n                      \r\n                        LinkedIn\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        Twitter\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        GitHub\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        Email\r\n                      \r\n                    \r\n                  \r\n                                  \r\n            \r\n          \r\n        \r\n        \r\n        \r\n          \r\n            \r\n            Welcome!\r\n            In this website you can find……\r\n            These fish species are modeled:\r\n            Herring\r\n            Cod\r\n            Sprat\r\n            \r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Physiological Fish larvae Individual-based Models(IBMs) Online Library\r\n            \r\n            \r\n              \r\n                \r\n                                    \r\n                    \r\n                      LinkedIn\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      Twitter\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      GitHub\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      Email\r\n                    \r\n                  \r\n                                  \r\n              \r\n            \r\n            \r\n              \r\n              Welcome!\r\n              In this website you can find……\r\n              These fish species are modeled:\r\n              Herring\r\n              Cod\r\n              Sprat\r\n              \r\n            \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    ",
-      "last_modified": "2022-10-05T13:42:17+02:00"
+      "last_modified": "2022-10-05T13:52:29+02:00"
     },
     {
       "path": "sprat.html",
       "title": "Sprat IBMs",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-10-05T13:42:18+02:00"
+      "last_modified": "2022-10-05T13:52:29+02:00"
     }
   ],
   "collections": ["herring/herring.json", "sprat/sprat.json"]
