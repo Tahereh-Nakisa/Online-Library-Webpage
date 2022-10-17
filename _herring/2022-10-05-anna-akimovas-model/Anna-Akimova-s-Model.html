@@ -88,9 +88,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Anna Akimova&#39;s Model</title>
+  <title>Akimova et al (in prep)</title>
 
-  <meta property="description" itemprop="description" content="A short description of the post." />
 
 
   <!--  https://schema.org/Article -->
@@ -98,21 +97,19 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <meta property="article:created" itemprop="dateCreated" content="2022-10-05" />
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Anna Akimova&#39;s Model" />
+  <meta property="og:title" content="Akimova et al (in prep)" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="A short description of the post." />
   <meta property="og:locale" content="en_US" />
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary" />
-  <meta property="twitter:title" content="Anna Akimova&#39;s Model" />
-  <meta property="twitter:description" content="A short description of the post." />
+  <meta property="twitter:title" content="Akimova et al (in prep)" />
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output","preview"]}},"value":[{"type":"character","attributes":{},"value":["Anna Akimova's Model"]},{"type":"character","attributes":{},"value":["A short description of the post.\n"]},{"type":"character","attributes":{},"value":["2022-10-05"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth","toc_float"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"character","attributes":{},"value":["haddock1.jpg"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","date","output","preview"]}},"value":[{"type":"character","attributes":{},"value":["Akimova et al (in prep)"]},{"type":"NULL"},{"type":"character","attributes":{},"value":["2022-10-05"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth","toc_float"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]},{"type":"logical","attributes":{},"value":[true]}]}]},{"type":"character","attributes":{},"value":["THUENEN_PRINT_CMYK.jpg"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -1495,7 +1492,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Anna Akimova's Model","description":"A short description of the post.","authors":[],"publishedDate":"2022-10-05T00:00:00.000+02:00"}
+{"title":"Akimova et al (in prep)","authors":[],"publishedDate":"2022-10-05T00:00:00.000+02:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1505,10 +1502,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Anna Akimova’s Model</h1>
+<h1>Akimova et al (in prep)</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>A short description of the post.</p></p>
+
 </div>
 
 
@@ -1517,11 +1514,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#anna-akimovas-model">Anna Akimova’s Model</a>
+<li><a href="#akimova-et-al-in-prep">Akimova et al (in prep)</a>
 <ul>
 <li><a href="#summary">Summary</a></li>
-<li><a href="#relations">Relations</a></li>
-<li><a href="#code">Code</a>
+<li><a href="#relations">Relations</a>
 <ul>
 <li><a href="#r-code">R Code</a></li>
 <li><a href="#matlab-code">Matlab Code</a></li>
@@ -1535,15 +1531,25 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </ul>
 </nav>
 </div>
-<h1 id="anna-akimovas-model">Anna Akimova’s Model</h1>
+<h1 id="akimova-et-al-in-prep">Akimova et al (in prep)</h1>
 <h2 id="summary">Summary</h2>
-<p>This model …</p>
+<p>This model has been applied to explore feeding and growth of herring larvae during the first month of their live in the North Sea. Two spawning components were compared: Buckan/Banks areas in autumn and Downs area in winter. Prey fields were obtained from field samples. Larvae between 5 and 26 mm length were simulated to match with the length range of observed herring larvae. The model was largely based on the physiological model parameterized for herring larvae by Hufnagl and Peck (2011). Three modifications to the original model were applied:</p>
+<ol type="i">
+<li>a new parameterization of the standard respiration rate was used based on the recent measurements made by Moyano et al.(2018):</li>
+</ol>
+<p>R_s=0.02⋅((w_l)<sup>0.886)⋅e</sup>(0.105⋅T)</p>
+<ol start="2" type="i">
+<li>a Boolean function was used for the dynamic energy allocation following Huebert and Peck, 2014:</li>
+</ol>
+<p>p=1,if w_l&gt;w_ref and p=0,if w_l≤w_ref</p>
+<ol start="3" type="i">
+<li>activity multiplicator k was k=2 during the daytime and k=1 during the night following Huebert and Peck, 2014:</li>
+</ol>
 <h2 id="relations">Relations</h2>
 <ol type="1">
-<li></li>
-<li></li>
+<li>Hufnagl and Peck, 2011</li>
+<li>Huebert and Peck, 2014</li>
 </ol>
-<h2 id="code">Code</h2>
 <h3 id="r-code">R Code</h3>
 <h3 id="matlab-code">Matlab Code</h3>
 <h3 id="fortran-code">Fortran Code</h3>
@@ -1553,10 +1559,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <h2 id="equations">Equations</h2>
 <h2 id="trouble-shooting">Trouble Shooting</h2>
 <ol type="1">
-<li></li>
-<li></li>
+<li>Corrected equation for the assimilation efficiency:
+β=0.6∙(1-0.3∙e^c)
+where c=-0.003∙(wl-Wmin)</li>
+<li>Corrected and simplified equation for the maximal gut content:
+GCmax=0.045⋅(w_ref)^1.02</li>
 </ol>
 <h1 id="contact-authors">Contact Authors</h1>
+<p><a href="mailto:anna.akimova@thuenen.de" class="email">anna.akimova@thuenen.de</a></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
