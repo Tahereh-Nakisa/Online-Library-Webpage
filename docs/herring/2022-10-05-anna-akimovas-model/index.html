@@ -2645,21 +2645,23 @@ Generic models
 <h1 id="akimova-et-al-in-prep">Akimova et al (in prep)</h1>
 <h2 id="summary">Summary</h2>
 <p>This model has been applied to explore feeding and growth of herring larvae during the first month of their live in the North Sea. Two spawning components were compared: Buckan/Banks areas in autumn and Downs area in winter. Prey fields were obtained from field samples. Larvae between 5 and 26 mm length were simulated to match with the length range of observed herring larvae. The model was largely based on the physiological model parameterized for herring larvae by Hufnagl and Peck (2011). Three modifications to the original model were applied:</p>
-<ol type="i">
-<li><p>a new parameterization of the standard respiration rate was used based on the recent measurements made by Moyano et al.(2018):
+<ol type="1">
+<li><p>a new parameterization of the standard respiration rate <span class="math inline">\(R_s\)</span> was based on the recent measurements made by Moyano et al.(2018):
 <span class="math display">\[
-R_s = 0.02\;.W_{l}^{0.886}\;.exp(0.105⋅T)
-\]</span></p></li>
-<li><p>a Boolean function was used for the dynamic energy allocation following Huebert and Peck, 2014:
+R_s = 0.02\;⋅W_{l}^{0.886}\;⋅exp(0.105⋅T)
+\]</span>
+where <span class="math inline">\(W_{l}\)</span> is larval dry weight [mg] and <span class="math inline">\(T\)</span> is temperature</p></li>
+<li><p>a Boolean function was used for the dynamic energy allocation paremeter <span class="math inline">\(p\)</span> following Huebert and Peck (2014):
 <span class="math display">\[
-(p=1,\;if \; \;w_l&gt;w_{ref}) \; \;and \; \; (p=0, \; \;if \; \;w_l≤w_{ref})
-\]</span></p></li>
-<li><p>activity multiplicator k was k=2 during the daytime and k=1 during the night following Huebert and Peck, 2014:</p></li>
+(p=1,\;if \; \;W_l&gt;W_{ref}) \; \;and \; \; (p=0, \; \;if \; \;W_l≤W_{ref})
+\]</span>
+where <span class="math inline">\(W_{ref}\)</span> is the reference larval weight</p></li>
+<li><p>activity multiplicator k was k=2 during the daytime and k=1 during the night following Huebert and Peck (2014):</p></li>
 </ol>
 <h2 id="relations">Relations</h2>
 <ol type="1">
-<li>Hufnagl and Peck, 2011</li>
-<li>Huebert and Peck, 2014</li>
+<li>Hufnagl and Peck (2011)</li>
+<li>Quirks model ( Huebert and Peck (2014))</li>
 </ol>
 <h3 id="r-code">R Code</h3>
 <h3 id="matlab-code">Matlab Code</h3>
@@ -2672,11 +2674,11 @@ R_s = 0.02\;.W_{l}^{0.886}\;.exp(0.105⋅T)
 <ol type="1">
 <li>Corrected equation for the assimilation efficiency:
 <span class="math display">\[
-β=0.6.(1-0.3.\;exp(c))
+β=0.6⋅(1-0.3⋅\;exp(c))
 \]</span>
 where <span class="math display">\[ c=-0.003.(W_l-W_{min}) \]</span></li>
-<li>Corrected and simplified equation for the maximal gut content:
-<span class="math display">\[GCmax=0.045⋅(w_{ref})^{1.02}\]</span></li>
+<li>Corrected and simplified equation for the maximal gut content <span class="math inline">\(GCmax\)</span>:
+<span class="math display">\[GCmax=0.045⋅(W_{ref})^{1.02}\]</span></li>
 </ol>
 <h1 id="contact-authors">Contact Authors</h1>
 <p><a href="mailto:anna.akimova@thuenen.de" class="email">anna.akimova@thuenen.de</a></p>
