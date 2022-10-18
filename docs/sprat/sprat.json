@@ -8,7 +8,7 @@
     "categories": [],
     "contents": "\r\nSummary\r\nCode\r\n\r\n\r\n\r\n",
     "preview": "sprat/2022-09-23-model-1/larvaa.jpg",
-    "last_modified": "2022-10-18T11:22:29+02:00",
+    "last_modified": "2022-10-17T12:12:38+02:00",
     "input_file": {}
   },
   {
@@ -20,7 +20,7 @@
     "categories": [],
     "contents": "\r\nGCSE KS4: Representing and analysing data using box plots\r\nLesson objectives\r\nTo understand how to visualise the shape of data using box plots\r\nTo produce box plots and the related five number summary\r\nTo interpret box plots\r\nPackages used in this lesson:\r\ntidyverse\r\nastsa\r\n\r\n\r\n\r\n",
     "preview": "sprat/2022-09-23-model-2/larvae.jpg",
-    "last_modified": "2022-10-18T11:22:30+02:00",
+    "last_modified": "2022-10-17T12:12:38+02:00",
     "input_file": {}
   }
 ]

@@ -15,12 +15,25 @@ output:
 site: distill::distill_website
 ---
  
-## Welcome!
+# Welcome to our online library!
 
-In this website you can find......
+Our online library represents a collection of physiological models of fish larvae designed to study feeding, growth and starvation mortality of fish larvae. This library encompasses single-species models for various fish species with the main focus on temperate fishes and promote development of generic approaches for larval fish modelling. Furthermore, the library compiles data from laboratory experiments and field studies used to parameterize, calibrate and validate those models.
 
-These fish species are modeled:
+This library was launched as a part of the "CoastalFutures" Project of German Federal Ministry of Education and Research. 
 
-- Herring
-- Cod
-- Sprat
+
+
+# Authors:
+
+Tahereh Nakisa and Anna Akimova
+
+
+
+# Contributors:
+
+
+Marc Hufnagl
+
+Ute Daewel
+
+here will be your name
