@@ -9,7 +9,7 @@
     "contents": "\r\n\r\nContents\r\nAkimova et al (in prep)\r\nSummary\r\nRelations\r\nR Code\r\nMatlab Code\r\nFortran Code\r\n\r\nPublications\r\nEquations\r\nTrouble Shooting\r\n\r\nContact Authors\r\n\r\nAkimova et al (in prep)\r\nSummary\r\nThis model has been applied to explore feeding and growth of herring larvae during the first month of their live in the North Sea. Two spawning components were compared: Buckan/Banks areas in autumn and Downs area in winter. Prey fields were obtained from field samples. Larvae between 5 and 26 mm length were simulated to match with the length range of observed herring larvae. The model was largely based on the physiological model parameterized for herring larvae by Hufnagl and Peck (2011). Three modifications to the original model were applied:\r\na new parameterization of the standard respiration rate was used based on the recent measurements made by Moyano et al.(2018):\r\nR_s=0.02⋅((w_l)0.886)⋅e(0.105⋅T)\r\na Boolean function was used for the dynamic energy allocation following Huebert and Peck, 2014:\r\np=1,if w_l>w_ref and p=0,if w_l≤w_ref\r\nactivity multiplicator k was k=2 during the daytime and k=1 during the night following Huebert and Peck, 2014:\r\nRelations\r\nHufnagl and Peck, 2011\r\nHuebert and Peck, 2014\r\nR Code\r\nMatlab Code\r\nFortran Code\r\ni=1\r\n…\r\nPublications\r\nEquations\r\nTrouble Shooting\r\nCorrected equation for the assimilation efficiency:\r\nβ=0.6∙(1-0.3∙e^c)\r\nwhere c=-0.003∙(wl-Wmin)\r\nCorrected and simplified equation for the maximal gut content:\r\nGCmax=0.045⋅(w_ref)^1.02\r\nContact Authors\r\nanna.akimova@thuenen.de\r\n\r\n\r\n\r\n",
     "preview": "herring/2022-10-05-anna-akimovas-model/THUENEN_PRINT_CMYK.jpg",
     "last_modified": "2022-10-17T17:16:30+02:00",
-    "input_file": "Anna-Akimova-s-Model.knit.md"
+    "input_file": {}
   },
   {
     "path": "herring/2022-10-05-hufnagl-pecks-model/",
@@ -21,6 +21,6 @@
     "contents": "\r\n\r\nContents\r\nHufnagl & Peck’s Model’s Model\r\nSummary\r\nRelations\r\nCode\r\nR Code\r\nMatlab Code\r\nFortran Code\r\n\r\nPublications\r\nEquations\r\nTrouble Shooting\r\n\r\nContact Authors\r\n\r\nHufnagl & Peck’s Model’s Model\r\nSummary\r\nThis model …\r\nRelations\r\n\r\n\r\nCode\r\nR Code\r\nMatlab Code\r\nFortran Code\r\ni=1\r\n…\r\nPublications\r\nEquations\r\nTrouble Shooting\r\n\r\n\r\nContact Authors\r\nmyron.peck@nioz.nl\r\n\r\n\r\n\r\n",
     "preview": "herring/2022-10-05-hufnagl-pecks-model/index.png",
     "last_modified": "2022-10-17T17:20:43+02:00",
-    "input_file": "hufnagl-pecks-model.knit.md"
+    "input_file": {}
   }
 ]
