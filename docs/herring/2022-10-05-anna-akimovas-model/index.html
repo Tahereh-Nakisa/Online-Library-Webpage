@@ -2646,15 +2646,15 @@ Generic models
 <h2 id="summary">Summary</h2>
 <p>This model has been applied to explore feeding and growth of herring larvae during the first month of their live in the North Sea. Two spawning components were compared: Buckan/Banks areas in autumn and Downs area in winter. Prey fields were obtained from field samples. Larvae between 5 and 26 mm length were simulated to match with the length range of observed herring larvae. The model was largely based on the physiological model parameterized for herring larvae by Hufnagl and Peck (2011). Three modifications to the original model were applied:</p>
 <ol type="i">
-<li>a new parameterization of the standard respiration rate was used based on the recent measurements made by Moyano et al.(2018):</li>
-</ol>
-<p>R_s=0.02⋅((w_l)<sup>0.886)⋅e</sup>(0.105⋅T)</p>
-<ol start="2" type="i">
-<li>a Boolean function was used for the dynamic energy allocation following Huebert and Peck, 2014:</li>
-</ol>
-<p>p=1,if w_l&gt;w_ref and p=0,if w_l≤w_ref</p>
-<ol start="3" type="i">
-<li>activity multiplicator k was k=2 during the daytime and k=1 during the night following Huebert and Peck, 2014:</li>
+<li><p>a new parameterization of the standard respiration rate was used based on the recent measurements made by Moyano et al.(2018):
+<span class="math display">\[
+R_s = 0.02\;.W_{l}^{0.886}\;.exp(0.105⋅T)
+\]</span></p></li>
+<li><p>a Boolean function was used for the dynamic energy allocation following Huebert and Peck, 2014:
+<span class="math display">\[
+(p=1,\;if \; \;w_l&gt;w_{ref}) \; \;and \; \; (p=0, \; \;if \; \;w_l≤w_{ref})
+\]</span></p></li>
+<li><p>activity multiplicator k was k=2 during the daytime and k=1 during the night following Huebert and Peck, 2014:</p></li>
 </ol>
 <h2 id="relations">Relations</h2>
 <ol type="1">
@@ -2671,10 +2671,12 @@ Generic models
 <h2 id="trouble-shooting">Trouble Shooting</h2>
 <ol type="1">
 <li>Corrected equation for the assimilation efficiency:
-β=0.6∙(1-0.3∙e^c)
-where c=-0.003∙(wl-Wmin)</li>
+<span class="math display">\[
+β=0.6.(1-0.3.\;exp(c))
+\]</span>
+where <span class="math display">\[ c=-0.003.(W_l-W_{min}) \]</span></li>
 <li>Corrected and simplified equation for the maximal gut content:
-GCmax=0.045⋅(w_ref)^1.02</li>
+<span class="math display">\[GCmax=0.045⋅(w_{ref})^{1.02}\]</span></li>
 </ol>
 <h1 id="contact-authors">Contact Authors</h1>
 <p><a href="mailto:anna.akimova@thuenen.de" class="email">anna.akimova@thuenen.de</a></p>
@@ -2686,6 +2688,15 @@ GCmax=0.045⋅(w_ref)^1.02</li>
 <div class="d-appendix">
 </div>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->

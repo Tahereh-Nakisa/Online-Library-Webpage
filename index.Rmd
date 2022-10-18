@@ -1,6 +1,6 @@
 ---
 title: "Physiological Fish larvae Individual-based Models(IBMs) Online Library"
-image: "images/fish1.jpg"
+image: "images/larval fish.jpg"
 links:
   - label: LinkedIn
     url: 'https://linkedin.com/ target="_blank"'
