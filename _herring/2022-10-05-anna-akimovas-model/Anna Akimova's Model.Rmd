@@ -55,7 +55,7 @@ i=1
 
 ## Equations
 
-## Trouble Shooting
+## Known Mistakes
 
 1) Corrected equation for the assimilation efficiency: 
 $$

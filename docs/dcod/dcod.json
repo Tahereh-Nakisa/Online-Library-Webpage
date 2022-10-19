@@ -1,0 +1,14 @@
+[
+  {
+    "path": "dcod/2022-10-19-Atlantic_Cod_larvae_Swimming_Speed/",
+    "title": "Swimming speed data sets for Atlantic Cod larvae",
+    "description": "You can see several data sets from several articles in this post.",
+    "author": [],
+    "date": "2022-10-19",
+    "categories": [],
+    "contents": "\r\n\r\nContents\r\nM.Peck et.al 2006\r\nArticle\r\nData\r\n\r\nContact Authors\r\n\r\nM.Peck et.al 2006\r\nArticle\r\nPeck, M. A., Buckley, L. J., & Bengtson, D. A. (2006). Effects of temperature and body size on the swimming speed of larval and juvenile Atlantic cod (Gadus morhua): implications for individual-based modelling. Environmental Biology of Fishes, 75(4), 419-429.\r\nData\r\nIn this article you can find figure 3.A.\r\nWe digitized the data from that figure.\r\nYou can Download the .csv file from tthe following link:\r\n\r\nDownload .csv here\r\n\r\nYou can also see the figure according to this data set here:\r\n\r\n\r\n\r\nContact Authors\r\n\r\n\r\n\r\n",
+    "preview": "dcod/2022-10-19-Atlantic_Cod_larvae_Swimming_Speed/dcod1.jpg",
+    "last_modified": "2022-12-19T14:24:05+01:00",
+    "input_file": "Atlantic_Cod_Larvae_Swimming_Speed.knit.md"
+  }
+]

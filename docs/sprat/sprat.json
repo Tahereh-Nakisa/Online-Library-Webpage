@@ -1,15 +1,15 @@
 [
   {
-    "path": "sprat/2022-09-23-model-1/",
-    "title": "Model 1",
-    "description": "A short description of the post.",
+    "path": "sprat/Ute Daewel's Model/",
+    "title": "Daewel et al (2011)",
+    "description": {},
     "author": [],
-    "date": "2022-09-23",
+    "date": "2022-12-19",
     "categories": [],
-    "contents": "\r\nSummary\r\nCode\r\n\r\n\r\n\r\n",
-    "preview": "sprat/2022-09-23-model-1/larvaa.jpg",
-    "last_modified": "2022-10-17T12:12:38+02:00",
-    "input_file": {}
+    "contents": "\r\n\r\nContents\r\nUte Daewel (2011)\r\nSummary\r\nRelations\r\nIBM Code\r\nMatlab Code\r\n\r\nPublications\r\nEquations\r\nKnown Mistakes\r\n\r\nContact Authors\r\n\r\nUte Daewel (2011)\r\nSummary\r\nRelations\r\nIBM Code\r\nMatlab Code\r\n\r\nDownload the MATLAB code in *.txt foramt here\r\n\r\nPublications\r\nEquations\r\nKnown Mistakes\r\nContact Authors\r\n\r\n\r\n\r\n",
+    "preview": "sprat/Ute Daewel's Model/hereon_logo.png",
+    "last_modified": "2022-12-19T14:29:42+01:00",
+    "input_file": "Ute-Daewel-s-Model.knit.md"
   },
   {
     "path": "sprat/2022-09-23-model-2/",
@@ -20,7 +20,7 @@
     "categories": [],
     "contents": "\r\nGCSE KS4: Representing and analysing data using box plots\r\nLesson objectives\r\nTo understand how to visualise the shape of data using box plots\r\nTo produce box plots and the related five number summary\r\nTo interpret box plots\r\nPackages used in this lesson:\r\ntidyverse\r\nastsa\r\n\r\n\r\n\r\n",
     "preview": "sprat/2022-09-23-model-2/larvae.jpg",
-    "last_modified": "2022-10-17T12:12:38+02:00",
+    "last_modified": "2022-10-19T10:24:33+02:00",
     "input_file": {}
   }
 ]
