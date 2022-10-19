@@ -80,7 +80,7 @@ d-appendix {
 
 
 h1 {
-  color: #008CD2;
+  color: #00A0E1;
   font-size: 25px;
 }
 
@@ -95,7 +95,7 @@ h3 {
 }
 
 d-article h1 {
-  color: #008CD2 !important;
+  color: #00AAAA !important;
   font-size: 25px;
 }
 
@@ -111,7 +111,7 @@ d-article h3 {
 
 /*change url color */
 a {
-  color: #00AA82;
+  color: #00A0E1;
 }
 
 a:hover {

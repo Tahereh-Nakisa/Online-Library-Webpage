@@ -24,7 +24,15 @@ navbar:
       - text: "Quirks"
         href: quirks.html
     - text: "Data"
-      href: data.html
+      menu:
+      - text: "Atlantic herring data"
+        href: dherring.html
+      - text: "Atlantic cod data"
+        href: dcod.html
+      - text: "European sprat data"
+        href: dsprat.html
+      - text: "European smelt data"
+        href: dsmelt.html
     - text: "Contact Us"
       href: contact.html
 output: distill::distill_article
