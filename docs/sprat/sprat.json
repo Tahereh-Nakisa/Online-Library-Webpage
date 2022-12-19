@@ -6,10 +6,17 @@
     "author": [],
     "date": "2022-12-19",
     "categories": [],
+<<<<<<< HEAD
     "contents": "\r\n\r\nContents\r\nUte Daewel (2011)\r\nSummary\r\nRelations\r\nIBM Code\r\nMatlab Code\r\n\r\nPublications\r\nEquations\r\nKnown Mistakes\r\n\r\nContact Authors\r\n\r\nUte Daewel (2011)\r\nSummary\r\nRelations\r\nIBM Code\r\nMatlab Code\r\n\r\nDownload the MATLAB code in *.txt foramt here\r\n\r\nPublications\r\nEquations\r\nKnown Mistakes\r\nContact Authors\r\n\r\n\r\n\r\n",
     "preview": "sprat/Ute Daewel's Model/hereon_logo.png",
     "last_modified": "2022-12-19T14:29:42+01:00",
     "input_file": "Ute-Daewel-s-Model.knit.md"
+=======
+    "contents": "\r\nSummary\r\nCode\r\n\r\n\r\n\r\n",
+    "preview": "sprat/2022-09-23-model-1/larvaa.jpg",
+    "last_modified": "2022-10-19T10:24:33+02:00",
+    "input_file": {}
+>>>>>>> 80fd85c02274307803a9f80128252684e9456b6c
   },
   {
     "path": "sprat/2022-09-23-model-2/",
