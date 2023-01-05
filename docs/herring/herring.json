@@ -8,11 +8,7 @@
     "categories": [],
     "contents": "\r\n\r\nContents\r\nAkimova et al (in prep)\r\nSummary\r\nRelations\r\nR Code\r\nMatlab Code\r\nFortran Code\r\n\r\nPublications\r\nEquations\r\nKnown Mistakes\r\n\r\nContact Authors\r\n\r\nAkimova et al (in prep)\r\nSummary\r\nThis model has been applied to explore feeding and growth of herring larvae during the first month of their live in the North Sea. Two spawning components were compared: Buckan/Banks areas in autumn and Downs area in winter. Prey fields were obtained from field samples. Larvae between 5 and 26 mm length were simulated to match with the length range of observed herring larvae. The model was largely based on the physiological model parameterized for herring larvae by Hufnagl and Peck (2011). Three modifications to the original model were applied:\r\na new parameterization of the standard respiration rate \\(R_s\\) was based on the recent measurements made by Moyano et al.(2018):\r\n\\[\r\nR_s = 0.02\\;⋅W_{l}^{0.886}\\;⋅exp(0.105⋅T)\r\n\\]\r\nwhere \\(W_{l}\\) is larval dry weight [mg] and \\(T\\) is temperature\r\na Boolean function was used for the dynamic energy allocation paremeter \\(p\\) following Huebert and Peck (2014):\r\n\\[\r\n(p=1,\\;if \\; \\;W_l>W_{ref}) \\; \\;and \\; \\; (p=0, \\; \\;if \\; \\;W_l≤W_{ref})\r\n\\]\r\nwhere \\(W_{ref}\\) is the reference larval weight\r\nactivity multiplicator k was k=2 during the daytime and k=1 during the night following Huebert and Peck (2014):\r\nRelations\r\nHufnagl and Peck (2011)\r\nQuirks model ( Huebert and Peck (2014))\r\nR Code\r\nMatlab Code\r\nFortran Code\r\ni=1\r\n…\r\nPublications\r\nEquations\r\nKnown Mistakes\r\nCorrected equation for the assimilation efficiency:\r\n\\[\r\nβ=0.6⋅(1-0.3⋅\\;exp(c))\r\n\\]\r\nwhere \\[ c=-0.003.(W_l-W_{min}) \\]\r\nCorrected and simplified equation for the maximal gut content \\(GCmax\\):\r\n\\[GCmax=0.045⋅(W_{ref})^{1.02}\\]\r\nContact Authors\r\nanna.akimova@thuenen.de\r\n\r\n\r\n\r\n",
     "preview": "herring/2022-10-05-anna-akimovas-model/THUENEN_PRINT_CMYK.jpg",
-<<<<<<< HEAD
     "last_modified": "2022-11-14T09:07:09+01:00",
-=======
-    "last_modified": "2022-10-19T10:24:33+02:00",
->>>>>>> 80fd85c02274307803a9f80128252684e9456b6c
     "input_file": {}
   },
   {
