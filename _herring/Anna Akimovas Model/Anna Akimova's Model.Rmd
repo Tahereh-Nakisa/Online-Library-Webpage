@@ -10,12 +10,6 @@ output:
 preview: THUENEN_PRINT_CMYK.jpg
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-library(tidyverse)
-library(astsa)
-#https://donsteward.blogspot.com/search/label/boxplots
-```
 # Akimova et al (in prep) 
 
 ## Summary
@@ -46,6 +40,37 @@ where $W_{ref}$ is the reference larval weight
 ### R Code
 
 ### Matlab Code
+
+
+### Matlab Code
+<div class="contributor_org">
+`r xfun::embed_file(here::here("_herring", "Anna Akimovas Model", "main_simulation.m"), text = "main_simulation.m")`
+</div>
+
+<div class="contributor_org">
+`r xfun::embed_file(here::here("_herring", "Anna Akimovas Model", "energy_budget.m"), text = "energy_budget.m")`
+</div>
+
+
+<div class="contributor_org">
+`r xfun::embed_file(here::here("_herring", "Anna Akimovas Model", "energy_allocation_and_growth.m"), text = "energy_allocation_and_growth.m")`
+</div>
+
+<div class="contributor_org">
+`r xfun::embed_file(here::here("_herring", "Anna Akimovas Model", "optimal_foraging.m"), text = "optimal_foraging.m")`
+</div>
+
+<div class="contributor_org">
+`r xfun::embed_file(here::here("_herring", "Anna Akimovas Model", "size_spectrum_zooplankton (2).m"), text = "size_spectrum_zooplankton (2).m")`
+</div>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(astsa)
+#https://donsteward.blogspot.com/search/label/boxplots
+```
+
 
 ### Fortran Code
 i=1
