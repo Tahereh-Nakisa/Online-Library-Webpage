@@ -1,17 +1,7 @@
 ---
-title: "Cod IBMs"
-description: |
-  A new article created using the Distill format.
-author:
-  
-date: "`r Sys.Date()`"
-output: distill::distill_article
+title: "cod IBMs"
+listing: cod
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
 
 
 

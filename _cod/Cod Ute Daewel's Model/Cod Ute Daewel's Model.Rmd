@@ -1,0 +1,44 @@
+---
+title: "Daewel et al (2011)"
+description:
+date: 2022-12-19
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+preview: hereon_logo.png
+---
+
+
+# Ute Daewel (2011) 
+
+## Summary
+....
+
+
+## Relations
+
+
+## IBM Code
+
+### Matlab Code
+<div class="contributor_org">
+`r xfun::embed_file(here::here("_cod", "Ute Daewel's Model", "IBM_cod_Ute.F"), text = "Download the MATLAB code in *.txt foramt here")`
+</div>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(astsa)
+#https://donsteward.blogspot.com/search/label/boxplots
+```
+
+## Publications
+
+## Equations
+
+## Known Mistakes
+
+
+# Contact Authors
