@@ -1,7 +1,7 @@
 ---
-title: "Daewel et al (2011)"
+title: "Ute Daewel(2011)"
 description:
-date: 2022-12-19
+date: 2022-10-05
 output:
   distill::distill_article:
     toc: true
@@ -24,7 +24,7 @@ preview: hereon_logo.png
 
 ### Matlab Code
 <div class="contributor_org">
-`r xfun::embed_file(here::here("_cod", "Ute Daewel's Model", "IBM_cod_Ute.F"), text = "Download the MATLAB code in *.txt foramt here")`
+`r xfun::embed_file(here::here("_cod", "Ute Daewels Model Cod", "IBM_cod_Ute.F"), text = "Download the MATLAB code in *.txt foramt here")`
 </div>
 
 ```{r setup, include=FALSE}

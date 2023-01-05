@@ -6,21 +6,21 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-01-05T12:12:07+01:00"
+      "last_modified": "2023-01-05T12:44:00+01:00"
     },
     {
       "path": "cod.html",
       "title": "cod IBMs",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-01-05T12:12:10+01:00"
+      "last_modified": "2023-01-05T12:44:01+01:00"
     },
     {
       "path": "dcod.html",
       "title": "Data available for Atlantic cod",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-01-05T12:12:11+01:00"
+      "last_modified": "2023-01-05T12:44:02+01:00"
     },
     {
       "path": "dherring.html",
@@ -34,28 +34,28 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-01-05T12:12:13+01:00"
+      "last_modified": "2023-01-05T12:44:03+01:00"
     },
     {
       "path": "herring.html",
       "title": "Herring IBMs",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-01-05T12:12:14+01:00"
+      "last_modified": "2023-01-05T12:44:04+01:00"
     },
     {
       "path": "index.html",
       "title": "Physiological Fish larvae Individual-based Models(IBMs) Online Library",
       "author": [],
       "contents": "\r\n\r\n          \r\n          \r\n          Home\r\n          \r\n          \r\n          About\r\n          \r\n          \r\n          Species-Specific models\r\n           \r\n          ▾\r\n          \r\n          \r\n          Atlantic herring\r\n          Atlantic cod\r\n          European sprat\r\n          European smelt\r\n          \r\n          \r\n          \r\n          \r\n          Generic models\r\n           \r\n          ▾\r\n          \r\n          \r\n          Quirks\r\n          \r\n          \r\n          \r\n          \r\n          Data\r\n           \r\n          ▾\r\n          \r\n          \r\n          Atlantic herring data\r\n          Atlantic cod data\r\n          European sprat data\r\n          European smelt data\r\n          \r\n          \r\n          Contact Us\r\n          ☰\r\n          \r\n          \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Physiological Fish larvae Individual-based Models(IBMs) Online Library\r\n            \r\n            \r\n              \r\n                \r\n                    \r\n                      \r\n                        LinkedIn\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        Twitter\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        GitHub\r\n                      \r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      \r\n                        Email\r\n                      \r\n                    \r\n                  \r\n                                  \r\n            \r\n          \r\n        \r\n        \r\n        \r\n          \r\n            \r\n            Welcome to our online library!\r\n            Our online library represents a collection of physiological models of fish larvae designed to study feeding, growth and starvation mortality of fish larvae. This library encompasses single-species models for various fish species with the main focus on temperate fishes and promote development of generic approaches for larval fish modelling. Furthermore, the library compiles data from laboratory experiments and field studies used to parameterize, calibrate and validate those models.\r\n            This library was launched as a part of the “CoastalFutures” Project of German Federal Ministry of Education and Research.\r\n            \r\n            \r\n            Authors:\r\n            Tahereh Nakisa and Anna Akimova\r\n            \r\n            \r\n            Contributors:\r\n            Marc Hufnagl\r\n            Ute Daewel\r\n            here can be your name\r\n            \r\n          \r\n        \r\n      \r\n    \r\n\r\n    \r\n      \r\n        \r\n          \r\n            \r\n              \r\n            \r\n              Physiological Fish larvae Individual-based Models(IBMs) Online Library\r\n            \r\n            \r\n              \r\n                \r\n                                    \r\n                    \r\n                      LinkedIn\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      Twitter\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      GitHub\r\n                    \r\n                  \r\n                                    \r\n                    \r\n                      Email\r\n                    \r\n                  \r\n                                  \r\n              \r\n            \r\n            \r\n              \r\n              Welcome to our online library!\r\n              Our online library represents a collection of physiological models of fish larvae designed to study feeding, growth and starvation mortality of fish larvae. This library encompasses single-species models for various fish species with the main focus on temperate fishes and promote development of generic approaches for larval fish modelling. Furthermore, the library compiles data from laboratory experiments and field studies used to parameterize, calibrate and validate those models.\r\n              This library was launched as a part of the “CoastalFutures” Project of German Federal Ministry of Education and Research.\r\n              \r\n              \r\n              Authors:\r\n              Tahereh Nakisa and Anna Akimova\r\n              \r\n              \r\n              Contributors:\r\n              Marc Hufnagl\r\n              Ute Daewel\r\n              here can be your name\r\n              \r\n            \r\n        \r\n      \r\n    \r\n\r\n    \r\n    \r\n    ",
-      "last_modified": "2023-01-05T12:12:14+01:00"
+      "last_modified": "2023-01-05T12:44:05+01:00"
     },
     {
       "path": "sprat.html",
       "title": "Sprat IBMs",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-01-05T12:12:15+01:00"
+      "last_modified": "2023-01-05T12:44:06+01:00"
     }
   ],
   "collections": ["cod/cod.json", "dcod/dcod.json", "herring/herring.json", "sprat/sprat.json"]
