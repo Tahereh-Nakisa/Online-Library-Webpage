@@ -1,0 +1,43 @@
+---
+title: "Heubert et al (2014)"
+description:
+date: 2023-01-06
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+
+# Heubert et al (2014) 
+
+## Summary
+....
+
+
+## Relations
+
+
+## IBM Code
+
+### R Code
+<div class="contributor_org">
+`r xfun::embed_file(here::here("_quirks","Quirks_1.01.R.doc"), text = "Download the R code in *.doc foramt here")`
+</div>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(astsa)
+#https://donsteward.blogspot.com/search/label/boxplots
+```
+
+## Publications
+
+## Equations
+
+## Known Mistakes
+
+
+# Contact Authors
