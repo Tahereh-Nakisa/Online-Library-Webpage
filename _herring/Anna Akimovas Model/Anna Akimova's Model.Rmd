@@ -72,10 +72,6 @@ library(astsa)
 ```
 
 
-### Fortran Code
-i=1
-...
-
 ## Publications
 
 ## Equations
