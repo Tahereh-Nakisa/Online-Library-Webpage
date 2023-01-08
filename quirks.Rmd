@@ -1,5 +1,5 @@
 ---
-title: "Heubert et al (2014)"
+title: "Huebert et al (2014)"
 description:
 date: 2023-01-06
 output:
@@ -10,10 +10,12 @@ output:
 ---
 
 
-# Heubert et al (2014) 
+# Huebert et al (2014) 
+
 
 ## Summary
-....
+
+This article introduces “Quirks,” a generic, individual-based model synthesizing over 40 years of empirical and theoretical insights into the foraging behavior and growth physiology of marine fish larvae. In Quirks, different types of larvae are defined by a short list of their biological traits, and all foraging and growth processes (including the effects of key environmental factors) are modeled following one unified set of mechanistic rules. This approach facilitates ecologically meaningful comparisons between different species and environments. We applied Quirks to model young exogenously feeding larvae of four species: 5.5-mm European anchovy (Engraulis encrasicolus), 7-mm Atlantic cod (Gadus morhua), 13-mm Atlantic herring (Clupea harengus), and 7-mm European sprat (Sprattus sprattus). Modeled growth estimates explained the majority of variability among 53 published empirical growth estimates, and displayed very little bias: 0.65%±1.2% (d^−1) (mean ± standard error). Prey organisms of ∼67% the maximum ingestible prey length were optimal for all larval types, in terms of the expected ingestion per encounter. Nevertheless, the foraging rate integrated over all favorable prey sizes was highest when smaller organisms made up >95% of the prey biomass under the assumption of constant normalized size spectrum slopes. The overall effect of turbulence was consistently negative, because its detrimental influence on prey pursuit success exceeded its beneficial influence on prey encounter rate. Model sensitivity to endogenous traits and exogenous environmental factors was measured and is discussed in depth. Quirks is free software and open source code is provided.
 
 
 ## Relations
@@ -22,8 +24,18 @@ output:
 ## IBM Code
 
 ### R Code
+
+
 <div class="contributor_org">
 `r xfun::embed_file(here::here("_quirks","Quirks_1.01.R.doc"), text = "Download the R code in *.doc foramt here")`
+</div>
+
+
+## Publications
+1) Huebert, Klaus B., and Myron A. Peck. "A day in the life of fish larvae: modeling foraging and    growth using quirks." PLoS One 9.6 (2014): e98205.
+
+<div class="contributor_org">
+`r xfun::embed_file(here::here("_quirks","Klaus B. Huebert, Myron A. Peck, 2014.pdf"), text = "Download this article in pdf here")`
 </div>
 
 ```{r setup, include=FALSE}
@@ -33,7 +45,6 @@ library(astsa)
 #https://donsteward.blogspot.com/search/label/boxplots
 ```
 
-## Publications
 
 ## Equations
 
@@ -41,3 +52,7 @@ library(astsa)
 
 
 # Contact Authors
+
+klaus.huebert@uni-hamburg.de
+
+myron.peck@nioz.nl

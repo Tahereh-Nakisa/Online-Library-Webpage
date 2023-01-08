@@ -20,7 +20,7 @@ library(astsa)
 
 ## Summary
 
-This model ...
+
 
 ## Relations
 
@@ -39,6 +39,7 @@ i=1
 
 ## Publications
 
+
 ## Equations
 
 ## Trouble Shooting
@@ -49,3 +50,5 @@ i=1
 # Contact Authors
 
 myron.peck@nioz.nl
+
+marc.hufnagl@uni-hamburg.de

@@ -14,7 +14,8 @@ preview: hereon_logo.png
 # Ute Daewel (2011) 
 
 ## Summary
-....
+
+This model has been developed to estimate the survival of Atlantic cod (Gadus Morhua) larvae in the North Sea. To provide zooplankton prey for the larvae, a bulk zooplankton biomass from an NPZD model (ECOSMO) was converted into a prey size spectrum using the methods described by Daewel et al. (2008b). The physiological model of the cod larvae used a mechanistic approach to restrict the upper limit of daily food consumption and prevent larval overfeeding, with the maximum gut content (GCmax) and gut evacuation rate (GER) determining the ingestible prey amount at each model time step. The encounter rate of larvae with their prey depends not only on larval reactive distance and prey density, but also on larval swimming behavior and turbulence. The cod larvae were considered pause-travel predators, searching for prey during pauses between swimming events, as reported by MacKenzie and Kurobe in 1995. The modelled eggs, yolk sac, and feeding larvae range in size from 5.5-20 mm, and starvation criteria are incorporated by considering the critical minimum mass, providing valuable insights into the complex dynamics of cod larvae and their prey in the North Sea.
 
 
 ## Relations
@@ -27,6 +28,22 @@ preview: hereon_logo.png
 `r xfun::embed_file(here::here("_cod", "Ute Daewels Model Cod", "IBM_cod_Ute.F"), text = "Download the MATLAB code in *.txt foramt here")`
 </div>
 
+## Publications
+1)  Daewel, Ute, Myron A. Peck, and Corinna Schrum. "Life history strategy and impacts of     environmental variability on early life stages of two marine fishes in the North Sea: an individual-based modelling approach." Canadian Journal of Fisheries and Aquatic Sciences 68.3 (2011): 426-443.
+
+<div class="contributor_org">
+`r xfun::embed_file(here::here("_cod", "Ute Daewels Model Cod", "Ute Daewel et al, 2011.pdf"), text = "Download the article in pdf here")`
+</div>
+
+2) Daewel, Ute, Corinna Schrum, and Alok Kumar Gupta. "The predictive potential of early life stage individual-based models (IBMs): an example for Atlantic cod Gadus morhua in the North Sea." Marine Ecology Progress Series 534 (2015): 199-219.
+
+<div class="contributor_org">
+`r xfun::embed_file(here::here("_cod", "Ute Daewels Model Cod", "Ute Daewel et al, 2015.pdf"), text = "Download the article in pdf here")`
+</div>
+
+
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
@@ -34,11 +51,15 @@ library(astsa)
 #https://donsteward.blogspot.com/search/label/boxplots
 ```
 
-## Publications
 
 ## Equations
 
 ## Known Mistakes
 
-
 # Contact Authors
+
+ute.daewel@hereon.de
+
+myron.peck@nioz.nl
+
+corinna.schrum@hereon.de

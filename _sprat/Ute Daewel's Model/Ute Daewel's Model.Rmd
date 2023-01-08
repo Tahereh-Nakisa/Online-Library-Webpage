@@ -14,7 +14,8 @@ preview: hereon_logo.png
 # Ute Daewel (2011) 
 
 ## Summary
-....
+
+  This model has been developed to simulate the growth and survival of European sprat (Sprattus sprattus) larvae in the North Sea. To provide zooplankton prey for the larvae, a bulk zooplankton biomass from an NPZD model (ECOSMO) was transformed into a prey size spectrum using the methods outlined by Daewel et al. (2008b). In the physiological model of sprat larvae, the daily food consumption was limited to an upper threshold (Cmax) to prevent overfeeding, as demonstrated in previous research (e.g., Letcher et al. 1996). The Cmax in sprat was derived from an empirical formula (for more information, see Daewel et al. 2008a). The encounter rate of larvae with their prey is influenced by factors such as larval reactive distance, prey density, swimming behavior, and turbulence. A cruise predator formulation was utilized for sprat larvae (details provided in Daewel et al. 2008b). The modelled eggs, yolk sac, and feeding larvae ranged in size from 5.5-20 mm, and the model included starvation criteria by considering the larval condition factor < 0.4. This model provides valuable insights into the complex dynamics of sprat larvae and their prey in the North Sea.
 
 
 ## Relations
@@ -23,9 +24,19 @@ preview: hereon_logo.png
 ## IBM Code
 
 ### Matlab Code
+
 <div class="contributor_org">
 `r xfun::embed_file(here::here("_sprat", "Ute Daewel's Model", "IBM_cod_Ute.F"), text = "Download the MATLAB code in *.txt foramt here")`
 </div>
+
+## Publications
+
+1)  Daewel, Ute, Myron A. Peck, and Corinna Schrum. "Life history strategy and impacts of     environmental variability on early life stages of two marine fishes in the North Sea: an individual-based modelling approach." Canadian Journal of Fisheries and Aquatic Sciences 68.3 (2011): 426-443.
+
+<div class="contributor_org">
+`r xfun::embed_file(here::here("_sprat", "Ute Daewel's Model", "Ute Daewel et al, 2011.pdf"), text = "Download the article in pdf here")`
+</div>
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -34,7 +45,6 @@ library(astsa)
 #https://donsteward.blogspot.com/search/label/boxplots
 ```
 
-## Publications
 
 ## Equations
 
@@ -42,3 +52,9 @@ library(astsa)
 
 
 # Contact Authors
+
+ute.daewel@hereon.de
+
+myron.peck@nioz.nl
+
+corinna.schrum@hereon.de

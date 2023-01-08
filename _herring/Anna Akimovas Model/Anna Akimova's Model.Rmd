@@ -36,11 +36,7 @@ where $W_{ref}$ is the reference larval weight
 1) Hufnagl and Peck (2011)
 2) Quirks model ( Huebert and Peck (2014))
 
-
-### R Code
-
-### Matlab Code
-
+## Code
 
 ### Matlab Code
 <div class="contributor_org">

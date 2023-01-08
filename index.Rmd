@@ -31,11 +31,12 @@ Tahereh Nakisa and Anna Akimova
 
 # Contributors:
 
+Myron A.Peck
 
 Marc Hufnagl
 
 Ute Daewel
 
-Klaus B.Heubert
+Klaus B.Huebert
 
 here can be your name
